@@ -30,6 +30,11 @@
             <artifactId>spring-cloud-starter-sleuth</artifactId>
             <version>${spring-cloud-sleuth.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <version>${spring-cloud-sleuth.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
