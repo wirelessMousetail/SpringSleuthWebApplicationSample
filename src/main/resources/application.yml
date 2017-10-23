@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sample-application
+  sleuth:
+    sampler:
+      percentage: 1.0
+logging:
+  level:
+    org.mousetail.sample: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
+  pattern:
+#    console: '%clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}'
